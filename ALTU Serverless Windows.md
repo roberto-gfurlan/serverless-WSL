@@ -8,7 +8,7 @@ Olá, esse tutorial foi feito para auxiliar a configuração correta do WSL e a 
 
 ## WSL
 
-1. Verifique qual a versão do WSL e se o Ubuntu já está instalado. Abra
+Verifique qual a versão do WSL e se o Ubuntu já está instalado. Abra
     o Comand Prompt digite o seguinte:
     
 ```
@@ -18,7 +18,7 @@ Se sua resposta for igual a essa:
 
 ![enter image description here](https://i.imgur.com/unLkFeM.png)
 
- Parabéns, vá para a etapa [aqui](#rodando-o-altu-seerveles-no-wsl). Se não, siga o próximo passo. 👇
+ Parabéns, vá para a etapa [Rodando o ALTU Serverless no WSL](#rodando-o-altu-seerveles-no-wsl). Se não, siga o próximo passo. 👇
 
 1. Para ajustar a sua versão do WSL, baixe o pacote de atualização do kernel [aqui] (https://docs.microsoft.com/pt-br/windows/wsl/install-manual#step-4---download-the-linux-kernel-update-package) e rode, depois abra o Power Shell e rode o seguinte comando:
  ```

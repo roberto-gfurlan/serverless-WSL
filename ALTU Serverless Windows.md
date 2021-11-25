@@ -15,6 +15,7 @@ Olá, esse tutorial foi feito para auxiliar a configuração correta do WSL e a 
     wsl --list  --verbose
 ```
 Se sua resposta for igual a essa:
+
 ![enter image description here](https://i.imgur.com/unLkFeM.png)
 
  Parabéns, vá para a etapa X. Se não, siga o próximo passo. 👇

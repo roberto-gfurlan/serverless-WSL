@@ -52,7 +52,7 @@ sudo chattr +i /etc/resolv.conf
  10. Verifique a sua versão do NodeJs `node --version` , se for inferior a versão 12, faça o upgrade. Primeiro instale o npm, `npm install npm@latest -g`, depois `sudo npm cache clean -f`, `sudo npm install -g n` e `sudo n stable`
 ***
 
-## Rodando o Altu Serveles no WSL
+## Rodando o Altu Serveles no WSL 
 
 1. Verifique se o seu Docker Desktop está conectado com o Ubuntu em: `Configurações > Resources > WSL Integration`
 2. Abra o **Windows Terminal** em uma shell do **Ubuntu**.

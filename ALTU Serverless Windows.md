@@ -18,9 +18,9 @@ Se sua resposta for igual a essa:
 
 ![enter image description here](https://i.imgur.com/unLkFeM.png)
 
- Parabéns, vá para a etapa [create an anchor](## Rodando o Altu Serveles no WSL). Se não, siga o próximo passo. 👇
+ Parabéns, vá para a etapa [aqui](#rodando-o-altu-seerveles-no-wsl). Se não, siga o próximo passo. 👇
 
-2. Para ajustar a sua versão do WSL, baixe o pacote de atualização do kernel [aqui] (https://docs.microsoft.com/pt-br/windows/wsl/install-manual#step-4---download-the-linux-kernel-update-package) e rode, depois abra o Power Shell e rode o seguinte comando:
+1. Para ajustar a sua versão do WSL, baixe o pacote de atualização do kernel [aqui] (https://docs.microsoft.com/pt-br/windows/wsl/install-manual#step-4---download-the-linux-kernel-update-package) e rode, depois abra o Power Shell e rode o seguinte comando:
  ```
   wsl --set-default-version 2 
   ```
@@ -52,7 +52,7 @@ sudo chattr +i /etc/resolv.conf
  10. Verifique a sua versão do NodeJs `node --version` , se for inferior a versão 12, faça o upgrade. Primeiro instale o npm, `npm install npm@latest -g`, depois `sudo npm cache clean -f`, `sudo npm install -g n` e `sudo n stable`
 ***
 
-(## Rodando o Altu Serveles no WSL)
+## Rodando o Altu Serveles no WSL
 
 1. Verifique se o seu Docker Desktop está conectado com o Ubuntu em: `Configurações > Resources > WSL Integration`
 2. Abra o **Windows Terminal** em uma shell do **Ubuntu**.
